@@ -380,9 +380,9 @@
       <category term="Chrome" scheme="http://yoursite.com/categories/Chrome/"/>
     
     
-      <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
       <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+    
+      <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     
   </entry>
   
@@ -700,9 +700,9 @@
       <category term="Android Studio" scheme="http://yoursite.com/categories/Android-Studio/"/>
     
     
-      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
-    
       <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
     
   </entry>
   
@@ -861,9 +861,9 @@
       <category term="Geek Tool" scheme="http://yoursite.com/categories/Geek-Tool/"/>
     
     
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
-    
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
     
   </entry>
   
@@ -1473,11 +1473,11 @@
     
       <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
     
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
       <category term="Ubuntu" scheme="http://yoursite.com/tags/Ubuntu/"/>
     
       <category term="ssh key" scheme="http://yoursite.com/tags/ssh-key/"/>
-    
-      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
     
   </entry>
   
