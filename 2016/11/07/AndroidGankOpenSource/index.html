@@ -1,0 +1,746 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Android,OpenSource," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Tianbin" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Android 开源代码干货">
+<meta property="og:url" content="http://yoursite.com/2016/11/07/AndroidGankOpenSource/index.html">
+<meta property="og:site_name" content="Tianbin">
+<meta property="og:description" content="Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~">
+<meta property="og:updated_time" content="2016-11-07T09:24:14.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Android 开源代码干货">
+<meta name="twitter:description" content="Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: undefined,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Android 开源代码干货 | Tianbin </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Tianbin</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Android 开源代码干货
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-11-07T17:15:23+08:00" content="2016-11-07">
+              2016-11-07
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/" itemprop="url" rel="index">
+                    <span itemprop="name">Android</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/Android/OpenSource/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenSource</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~</p>
+ <a id="more"></a>
+<h2 id="APP"><a href="#APP" class="headerlink" title="APP"></a>APP</h2><ul>
+<li>一个为控件添加深度效果的库<br><a href="https://github.com/danielzeller/Depth-LIB-Android-" target="_blank" rel="external">https://github.com/danielzeller/Depth-LIB-Android-</a></li>
+<li>Android 模版项目 使用到了 RxJava, Dagger 2, Espresso, Mockito 等库<br><a href="https://github.com/hitherejoe/Android-Boilerplate" target="_blank" rel="external">https://github.com/hitherejoe/Android-Boilerplate</a></li>
+<li>Material Design 风格的登陆功能<br><a href="https://github.com/unipiazza/unipiazza-android-twostepslogin" target="_blank" rel="external">https://github.com/unipiazza/unipiazza-android-twostepslogin</a></li>
+<li>一款精致的Gank.io 客户端<br><a href="https://github.com/JohnnyShieh/Gank" target="_blank" rel="external">https://github.com/JohnnyShieh/Gank</a></li>
+</ul>
+<h2 id="Animation"><a href="#Animation" class="headerlink" title="Animation"></a>Animation</h2><ul>
+<li>Yalantis 出品：搜索过滤器交互效果<br><a href="https://github.com/Yalantis/SearchFilter" target="_blank" rel="external">https://github.com/Yalantis/SearchFilter</a></li>
+<li>让你的 App 不再那么无聊和单调，气泡风格的过渡动画效果，酷酷的！<br><a href="https://github.com/Cleveroad/BubbleAnimationLayout" target="_blank" rel="external">https://github.com/Cleveroad/BubbleAnimationLayout</a></li>
+<li>弹出分享控件动画，超赞<br><a href="https://github.com/JeasonWong/FlipShare" target="_blank" rel="external">https://github.com/JeasonWong/FlipShare</a></li>
+<li>仿支付宝芝麻信用动画效果<br><a href="https://github.com/HotBitmapGG/CreditSesameRingView" target="_blank" rel="external">https://github.com/HotBitmapGG/CreditSesameRingView</a></li>
+<li>Shape Ripple is a library that emulates a ripple like animations with cool tweaks on the go. It runs on API level 11 and upwards<br><a href="https://github.com/poldz123/ShapeRipple" target="_blank" rel="external">https://github.com/poldz123/ShapeRipple</a></li>
+<li>Material Design 效果的注册过渡动画<br><a href="https://github.com/JeasonWong/SignUpTransition" target="_blank" rel="external">https://github.com/JeasonWong/SignUpTransition</a></li>
+<li>发送信息时显示的过度动画（纸飞机）<br><a href="https://github.com/Jaouan/Sending-Animation-Example" target="_blank" rel="external">https://github.com/Jaouan/Sending-Animation-Example</a></li>
+<li><a href="https://github.com/lovejjfg/Circle" target="_blank" rel="external">https://github.com/lovejjfg/Circle</a></li>
+</ul>
+<h2 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h2><ul>
+<li>可以设置圆角的Button，同时实现了按钮点击时背景色渐变<br><a href="https://github.com/czy1121/roundbutton" target="_blank" rel="external">https://github.com/czy1121/roundbutton</a></li>
+<li>带有展开动画的 button , very cute<br><a href="https://github.com/daniel-martins-IR/MagicButton" target="_blank" rel="external">https://github.com/daniel-martins-IR/MagicButton</a></li>
+</ul>
+<h2 id="CalendarView"><a href="#CalendarView" class="headerlink" title="CalendarView"></a>CalendarView</h2><ul>
+<li>一个实现日历与列表交互的控件<br><a href="https://github.com/Kelin-Hong/CalendarListView" target="_blank" rel="external">https://github.com/Kelin-Hong/CalendarListView</a></li>
+<li>Material Design 风格的日历控件<br><a href="https://github.com/prolificinteractive/material-calendarview" target="_blank" rel="external">https://github.com/prolificinteractive/material-calendarview</a></li>
+</ul>
+<h2 id="Dialog"><a href="#Dialog" class="headerlink" title="Dialog"></a>Dialog</h2><ul>
+<li>一个简单，强大的广告活动弹窗控件<br><a href="https://github.com/yipianfengye/android-adDialog" target="_blank" rel="external">https://github.com/yipianfengye/android-adDialog</a></li>
+</ul>
+<h2 id="FilePicker"><a href="#FilePicker" class="headerlink" title="FilePicker"></a>FilePicker</h2><ul>
+<li>一款轻量的文件选择器，同样支持选择多种类型文件<br><a href="https://github.com/fishwjy/MultiType-FilePicker" target="_blank" rel="external">https://github.com/fishwjy/MultiType-FilePicker</a></li>
+<li>一款支持从页面底部拉起的图片选择器<br><a href="https://github.com/ParkSangGwon/TedBottomPicker" target="_blank" rel="external">https://github.com/ParkSangGwon/TedBottomPicker</a></li>
+<li>自定义文件管理器<br><a href="https://github.com/Angads25/android-filepicker" target="_blank" rel="external">https://github.com/Angads25/android-filepicker</a></li>
+<li>支持选择多种类型文件的选择器<br><a href="https://github.com/DroidNinja/Android-FilePicker" target="_blank" rel="external">https://github.com/DroidNinja/Android-FilePicker</a></li>
+</ul>
+<h2 id="HighLightShowContent"><a href="#HighLightShowContent" class="headerlink" title="HighLightShowContent"></a>HighLightShowContent</h2><ul>
+<li>支持语法高亮的代码展示控件<br><a href="https://github.com/Softwee/codeview-android" target="_blank" rel="external">https://github.com/Softwee/codeview-android</a></li>
+<li>Android平台下的原生Markdown解析器<br><a href="https://github.com/zzhoujay/Markdown" target="_blank" rel="external">https://github.com/zzhoujay/Markdown</a></li>
+</ul>
+<h2 id="ImageView"><a href="#ImageView" class="headerlink" title="ImageView"></a>ImageView</h2><ul>
+<li>Android 高性能实时模糊（Blur）<br><a href="https://github.com/mmin18/RealtimeBlurView" target="_blank" rel="external">https://github.com/mmin18/RealtimeBlurView</a></li>
+<li>导入图片生成Low Poly风格图片的app<br><a href="https://github.com/hugeterry/PloyFun" target="_blank" rel="external">https://github.com/hugeterry/PloyFun</a></li>
+<li>仿即刻首页滚动效果<br><a href="https://github.com/JeasonWong/JikeGallery" target="_blank" rel="external">https://github.com/JeasonWong/JikeGallery</a></li>
+</ul>
+<h2 id="LoadingView"><a href="#LoadingView" class="headerlink" title="LoadingView"></a>LoadingView</h2><ul>
+<li>TextView和ImageView等待数据返回时显示的加载动画<br><a href="https://github.com/elye/loaderviewlibrary" target="_blank" rel="external">https://github.com/elye/loaderviewlibrary</a></li>
+<li>仿支付宝 下拉加载动画<br><a href="https://github.com/andyxialm/SmileyLoadingView" target="_blank" rel="external">https://github.com/andyxialm/SmileyLoadingView</a></li>
+<li>简单的带有动画效果的加载控件<br><a href="https://github.com/ldoublem/LoadingView" target="_blank" rel="external">https://github.com/ldoublem/LoadingView</a></li>
+<li>几种炫酷样式的加载动画<br><a href="https://github.com/ybq/Android-SpinKit" target="_blank" rel="external">https://github.com/ybq/Android-SpinKit</a></li>
+<li>高仿58同城 加载动画<br><a href="https://github.com/zzz40500/android-shapeLoadingView" target="_blank" rel="external">https://github.com/zzz40500/android-shapeLoadingView</a></li>
+</ul>
+<h2 id="Multi-Media"><a href="#Multi-Media" class="headerlink" title="Multi-Media"></a>Multi-Media</h2><ul>
+<li>jjdxm_ijkplayer<br><a href="https://github.com/jjdxmashl/jjdxm_ijkplayer/" target="_blank" rel="external">https://github.com/jjdxmashl/jjdxm_ijkplayer/</a></li>
+<li>Yet another implementation ofMediaPlayer class based on OpenSL ES<br><a href="http://android-openslmediaplayer.h6ah4i.com/" target="_blank" rel="external">http://android-openslmediaplayer.h6ah4i.com/</a></li>
+</ul>
+<h2 id="Navigation"><a href="#Navigation" class="headerlink" title="Navigation"></a>Navigation</h2><ul>
+<li>Material Design风格的底部导航栏，效果类似Android Support Library 中的BottomNavigationView 控件<br><a href="https://github.com/roughike/BottomBar" target="_blank" rel="external">https://github.com/roughike/BottomBar</a></li>
+<li>UI优美的底部导航栏<br><a href="https://github.com/armcha/Space-Navigation-View" target="_blank" rel="external">https://github.com/armcha/Space-Navigation-View</a></li>
+<li>一个以Material Design风格展示侧面导航栏的控件<br><a href="https://github.com/andremion/Floating-Navigation-View" target="_blank" rel="external">https://github.com/andremion/Floating-Navigation-View</a></li>
+</ul>
+<h2 id="Progress"><a href="#Progress" class="headerlink" title="Progress"></a>Progress</h2><ul>
+<li>一个圆形进度条，控件中可以设置文字<br><a href="https://github.com/ldoublem/RingProgress" target="_blank" rel="external">https://github.com/ldoublem/RingProgress</a></li>
+<li>A DownloadProgressButton with Animation for Android<br><a href="https://github.com/cctanfujun/ProgressRoundButton" target="_blank" rel="external">https://github.com/cctanfujun/ProgressRoundButton</a></li>
+<li>A ‘Google Fit’ like activity indicator for Android<br><a href="https://github.com/dlazaro66/WheelIndicatorView" target="_blank" rel="external">https://github.com/dlazaro66/WheelIndicatorView</a></li>
+</ul>
+<h2 id="RecyclerView"><a href="#RecyclerView" class="headerlink" title="RecyclerView"></a>RecyclerView</h2><ul>
+<li>支持多选的 RecyclerView<br><a href="https://github.com/dvdciri/MultiChoiceRecyclerView" target="_blank" rel="external">https://github.com/dvdciri/MultiChoiceRecyclerView</a></li>
+<li>RecyclerView 实现流式布局，可以用来做 Tag 标签效果<br><a href="https://github.com/BelooS/ChipsLayoutManager" target="_blank" rel="external">https://github.com/BelooS/ChipsLayoutManager</a></li>
+<li>支持快速快动的RecyclerView<br><a href="https://github.com/L4Digital/FastScroll" target="_blank" rel="external">https://github.com/L4Digital/FastScroll</a></li>
+<li>RecyclerView snapping (实现列表第一个Holder总是完整显示，当滑动使其部分被隐藏时会自动回弹)<br><a href="https://github.com/rubensousa/RecyclerViewSnap" target="_blank" rel="external">https://github.com/rubensousa/RecyclerViewSnap</a></li>
+<li>RecyclerView LayoutManager 实现风车效果<br><a href="https://github.com/Cleveroad/FanLayoutManager" target="_blank" rel="external">https://github.com/Cleveroad/FanLayoutManager</a></li>
+</ul>
+<h2 id="RxJava"><a href="#RxJava" class="headerlink" title="RxJava"></a>RxJava</h2><ul>
+<li>RxJava 绑定 Activity，Fragment 生命周期<br><a href="https://github.com/trello/RxLifecycle" target="_blank" rel="external">https://github.com/trello/RxLifecycle</a></li>
+</ul>
+<h2 id="ScoreView"><a href="#ScoreView" class="headerlink" title="ScoreView"></a>ScoreView</h2><ul>
+<li>SpiderWebScoreView是用于Android上的一个蛛网评分控件<br><a href="https://github.com/xiaopansky/SpiderWebScoreView" target="_blank" rel="external">https://github.com/xiaopansky/SpiderWebScoreView</a></li>
+</ul>
+<h2 id="SearchBar"><a href="#SearchBar" class="headerlink" title="SearchBar"></a>SearchBar</h2><ul>
+<li><a href="https://github.com/mancj/MaterialSearchBar" target="_blank" rel="external">https://github.com/mancj/MaterialSearchBar</a></li>
+</ul>
+<h2 id="SideBar"><a href="#SideBar" class="headerlink" title="SideBar"></a>SideBar</h2><ul>
+<li>WaveSideBar<br><a href="https://github.com/gjiazhe/WaveSideBar" target="_blank" rel="external">https://github.com/gjiazhe/WaveSideBar</a></li>
+<li>一个支持快速导航，排序，顶部悬停的城市列表Demo<br><a href="https://github.com/18722527635/CityDemo" target="_blank" rel="external">https://github.com/18722527635/CityDemo</a></li>
+</ul>
+<h2 id="Splash"><a href="#Splash" class="headerlink" title="Splash"></a>Splash</h2><ul>
+<li>小红书欢迎引导第二版<br><a href="https://github.com/w446108264/XhsWelcomeAnim" target="_blank" rel="external">https://github.com/w446108264/XhsWelcomeAnim</a></li>
+<li>A beautiful way to introduce users to you app<br><a href="https://github.com/eoinfogarty/Onboarding" target="_blank" rel="external">https://github.com/eoinfogarty/Onboarding</a></li>
+</ul>
+<h2 id="TextView"><a href="#TextView" class="headerlink" title="TextView"></a>TextView</h2><ul>
+<li>一个功能强大的TextView扩展控件<br><a href="https://github.com/lygttpod/SuperTextView" target="_blank" rel="external">https://github.com/lygttpod/SuperTextView</a></li>
+<li>一个定时切换 EditText 中 hint 内容的控件<br><a href="https://github.com/cctanfujun/HintAnim-EditText" target="_blank" rel="external">https://github.com/cctanfujun/HintAnim-EditText</a></li>
+</ul>
+<h2 id="Tips（情景提示）"><a href="#Tips（情景提示）" class="headerlink" title="Tips（情景提示）"></a>Tips（情景提示）</h2><ul>
+<li>Google’s Material Design guidelines on feature discovery 情景提示效果代码实现<br><a href="https://github.com/KeepSafe/TapTargetView" target="_blank" rel="external">https://github.com/KeepSafe/TapTargetView</a></li>
+<li>支持在给定控件周围添加情景提示的自定义控件<br><a href="https://github.com/tomergoldst/tooltips" target="_blank" rel="external">https://github.com/tomergoldst/tooltips</a></li>
+</ul>
+<h2 id="ViewPager"><a href="#ViewPager" class="headerlink" title="ViewPager"></a>ViewPager</h2><ul>
+<li>Infinite cycle ViewPager with two-way orientation and interactive effect.<br><a href="https://github.com/DevLight-Mobile-Agency/InfiniteCycleViewPager" target="_blank" rel="external">https://github.com/DevLight-Mobile-Agency/InfiniteCycleViewPager</a></li>
+<li>It’s just an example of carousel browsing, a bit inspired by Frank Lau’s animation.<br><a href="https://github.com/Jaouan/Carousel-Browsing-Example" target="_blank" rel="external">https://github.com/Jaouan/Carousel-Browsing-Example</a></li>
+</ul>
+<h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><ul>
+<li>自定义双向滑动的seekbar<br><a href="https://github.com/GuoFeilong/ATDragViewDemo" target="_blank" rel="external">https://github.com/GuoFeilong/ATDragViewDemo</a></li>
+<li>一款Material Design 风格的评分控件<br><a href="https://github.com/DreaminginCodeZH/MaterialRatingBar" target="_blank" rel="external">https://github.com/DreaminginCodeZH/MaterialRatingBar</a></li>
+<li>Material Design 风格的 Preference功能页<br><a href="https://github.com/RikkaW/MaterialPreference" target="_blank" rel="external">https://github.com/RikkaW/MaterialPreference</a></li>
+<li>模仿 Smartisan OS 的 BigBang 功能<br><a href="https://github.com/baoyongzhang/BigBang" target="_blank" rel="external">https://github.com/baoyongzhang/BigBang</a></li>
+<li>颜色渐变的ActionBar<br><a href="https://github.com/flouthoc/Gradbar" target="_blank" rel="external">https://github.com/flouthoc/Gradbar</a></li>
+<li>Android开发人员不得不收集的代码(持续更新中)<br><a href="https://github.com/Blankj/AndroidUtilCode" target="_blank" rel="external">https://github.com/Blankj/AndroidUtilCode</a></li>
+<li>高仿微信数字键盘、支付键盘（密码键盘）<br><a href="https://github.com/zuiwuyuan/WeChatPswKeyboard" target="_blank" rel="external">https://github.com/zuiwuyuan/WeChatPswKeyboard</a></li>
+<li>仿Medium 文章页 图文混排效果<br><a href="https://github.com/angebagui/medium-textview" target="_blank" rel="external">https://github.com/angebagui/medium-textview</a></li>
+<li>支持添加，删除，缩放，拖拽的贴图控件<br><a href="https://github.com/wuapnjie/StickerView" target="_blank" rel="external">https://github.com/wuapnjie/StickerView</a></li>
+<li>可以记住历史选项的spinner<br><a href="https://github.com/Jasonchenlijian/MemorySpinner" target="_blank" rel="external">https://github.com/Jasonchenlijian/MemorySpinner</a></li>
+</ul>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Android/" rel="tag">#Android</a>
+          
+            <a href="/tags/OpenSource/" rel="tag">#OpenSource</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/11/02/SeekBarExpandView/" rel="next" title="SeekBarExpandView">
+                <i class="fa fa-chevron-left"></i> SeekBarExpandView
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpeg"
+               alt="Tianbin" />
+          <p class="site-author-name" itemprop="name">Tianbin</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">15</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">6</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">22</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tb-yangshu" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#APP"><span class="nav-number">1.</span> <span class="nav-text">APP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Animation"><span class="nav-number">2.</span> <span class="nav-text">Animation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Button"><span class="nav-number">3.</span> <span class="nav-text">Button</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#CalendarView"><span class="nav-number">4.</span> <span class="nav-text">CalendarView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Dialog"><span class="nav-number">5.</span> <span class="nav-text">Dialog</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#FilePicker"><span class="nav-number">6.</span> <span class="nav-text">FilePicker</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#HighLightShowContent"><span class="nav-number">7.</span> <span class="nav-text">HighLightShowContent</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ImageView"><span class="nav-number">8.</span> <span class="nav-text">ImageView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#LoadingView"><span class="nav-number">9.</span> <span class="nav-text">LoadingView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Multi-Media"><span class="nav-number">10.</span> <span class="nav-text">Multi-Media</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Navigation"><span class="nav-number">11.</span> <span class="nav-text">Navigation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Progress"><span class="nav-number">12.</span> <span class="nav-text">Progress</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RecyclerView"><span class="nav-number">13.</span> <span class="nav-text">RecyclerView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#RxJava"><span class="nav-number">14.</span> <span class="nav-text">RxJava</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ScoreView"><span class="nav-number">15.</span> <span class="nav-text">ScoreView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SearchBar"><span class="nav-number">16.</span> <span class="nav-text">SearchBar</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#SideBar"><span class="nav-number">17.</span> <span class="nav-text">SideBar</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Splash"><span class="nav-number">18.</span> <span class="nav-text">Splash</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#TextView"><span class="nav-number">19.</span> <span class="nav-text">TextView</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Tips（情景提示）"><span class="nav-number">20.</span> <span class="nav-text">Tips（情景提示）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ViewPager"><span class="nav-number">21.</span> <span class="nav-text">ViewPager</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Other"><span class="nav-number">22.</span> <span class="nav-text">Other</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Tianbin</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>

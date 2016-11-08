@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tianbin</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2016-11-07T09:24:14.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Tianbin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 开源代码干货</title>
+    <link href="http://yoursite.com/2016/11/07/AndroidGankOpenSource/"/>
+    <id>http://yoursite.com/2016/11/07/AndroidGankOpenSource/</id>
+    <published>2016-11-07T09:15:23.000Z</published>
+    <updated>2016-11-07T09:24:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~</p>
+ <a id="more"></a>
+<h2 id="APP"><a href="#APP" class="headerlink" title="APP"></a>APP</h2><ul>
+<li>一个为控件添加深度效果的库<br><a href="https://github.com/danielzeller/Depth-LIB-Android-" target="_blank" rel="external">https://github.com/danielzeller/Depth-LIB-Android-</a></li>
+<li>Android 模版项目 使用到了 RxJava, Dagger 2, Espresso, Mockito 等库<br><a href="https://github.com/hitherejoe/Android-Boilerplate" target="_blank" rel="external">https://github.com/hitherejoe/Android-Boilerplate</a></li>
+<li>Material Design 风格的登陆功能<br><a href="https://github.com/unipiazza/unipiazza-android-twostepslogin" target="_blank" rel="external">https://github.com/unipiazza/unipiazza-android-twostepslogin</a></li>
+<li>一款精致的Gank.io 客户端<br><a href="https://github.com/JohnnyShieh/Gank" target="_blank" rel="external">https://github.com/JohnnyShieh/Gank</a></li>
+</ul>
+<h2 id="Animation"><a href="#Animation" class="headerlink" title="Animation"></a>Animation</h2><ul>
+<li>Yalantis 出品：搜索过滤器交互效果<br><a href="https://github.com/Yalantis/SearchFilter" target="_blank" rel="external">https://github.com/Yalantis/SearchFilter</a></li>
+<li>让你的 App 不再那么无聊和单调，气泡风格的过渡动画效果，酷酷的！<br><a href="https://github.com/Cleveroad/BubbleAnimationLayout" target="_blank" rel="external">https://github.com/Cleveroad/BubbleAnimationLayout</a></li>
+<li>弹出分享控件动画，超赞<br><a href="https://github.com/JeasonWong/FlipShare" target="_blank" rel="external">https://github.com/JeasonWong/FlipShare</a></li>
+<li>仿支付宝芝麻信用动画效果<br><a href="https://github.com/HotBitmapGG/CreditSesameRingView" target="_blank" rel="external">https://github.com/HotBitmapGG/CreditSesameRingView</a></li>
+<li>Shape Ripple is a library that emulates a ripple like animations with cool tweaks on the go. It runs on API level 11 and upwards<br><a href="https://github.com/poldz123/ShapeRipple" target="_blank" rel="external">https://github.com/poldz123/ShapeRipple</a></li>
+<li>Material Design 效果的注册过渡动画<br><a href="https://github.com/JeasonWong/SignUpTransition" target="_blank" rel="external">https://github.com/JeasonWong/SignUpTransition</a></li>
+<li>发送信息时显示的过度动画（纸飞机）<br><a href="https://github.com/Jaouan/Sending-Animation-Example" target="_blank" rel="external">https://github.com/Jaouan/Sending-Animation-Example</a></li>
+<li><a href="https://github.com/lovejjfg/Circle" target="_blank" rel="external">https://github.com/lovejjfg/Circle</a></li>
+</ul>
+<h2 id="Button"><a href="#Button" class="headerlink" title="Button"></a>Button</h2><ul>
+<li>可以设置圆角的Button，同时实现了按钮点击时背景色渐变<br><a href="https://github.com/czy1121/roundbutton" target="_blank" rel="external">https://github.com/czy1121/roundbutton</a></li>
+<li>带有展开动画的 button , very cute<br><a href="https://github.com/daniel-martins-IR/MagicButton" target="_blank" rel="external">https://github.com/daniel-martins-IR/MagicButton</a></li>
+</ul>
+<h2 id="CalendarView"><a href="#CalendarView" class="headerlink" title="CalendarView"></a>CalendarView</h2><ul>
+<li>一个实现日历与列表交互的控件<br><a href="https://github.com/Kelin-Hong/CalendarListView" target="_blank" rel="external">https://github.com/Kelin-Hong/CalendarListView</a></li>
+<li>Material Design 风格的日历控件<br><a href="https://github.com/prolificinteractive/material-calendarview" target="_blank" rel="external">https://github.com/prolificinteractive/material-calendarview</a></li>
+</ul>
+<h2 id="Dialog"><a href="#Dialog" class="headerlink" title="Dialog"></a>Dialog</h2><ul>
+<li>一个简单，强大的广告活动弹窗控件<br><a href="https://github.com/yipianfengye/android-adDialog" target="_blank" rel="external">https://github.com/yipianfengye/android-adDialog</a></li>
+</ul>
+<h2 id="FilePicker"><a href="#FilePicker" class="headerlink" title="FilePicker"></a>FilePicker</h2><ul>
+<li>一款轻量的文件选择器，同样支持选择多种类型文件<br><a href="https://github.com/fishwjy/MultiType-FilePicker" target="_blank" rel="external">https://github.com/fishwjy/MultiType-FilePicker</a></li>
+<li>一款支持从页面底部拉起的图片选择器<br><a href="https://github.com/ParkSangGwon/TedBottomPicker" target="_blank" rel="external">https://github.com/ParkSangGwon/TedBottomPicker</a></li>
+<li>自定义文件管理器<br><a href="https://github.com/Angads25/android-filepicker" target="_blank" rel="external">https://github.com/Angads25/android-filepicker</a></li>
+<li>支持选择多种类型文件的选择器<br><a href="https://github.com/DroidNinja/Android-FilePicker" target="_blank" rel="external">https://github.com/DroidNinja/Android-FilePicker</a></li>
+</ul>
+<h2 id="HighLightShowContent"><a href="#HighLightShowContent" class="headerlink" title="HighLightShowContent"></a>HighLightShowContent</h2><ul>
+<li>支持语法高亮的代码展示控件<br><a href="https://github.com/Softwee/codeview-android" target="_blank" rel="external">https://github.com/Softwee/codeview-android</a></li>
+<li>Android平台下的原生Markdown解析器<br><a href="https://github.com/zzhoujay/Markdown" target="_blank" rel="external">https://github.com/zzhoujay/Markdown</a></li>
+</ul>
+<h2 id="ImageView"><a href="#ImageView" class="headerlink" title="ImageView"></a>ImageView</h2><ul>
+<li>Android 高性能实时模糊（Blur）<br><a href="https://github.com/mmin18/RealtimeBlurView" target="_blank" rel="external">https://github.com/mmin18/RealtimeBlurView</a></li>
+<li>导入图片生成Low Poly风格图片的app<br><a href="https://github.com/hugeterry/PloyFun" target="_blank" rel="external">https://github.com/hugeterry/PloyFun</a></li>
+<li>仿即刻首页滚动效果<br><a href="https://github.com/JeasonWong/JikeGallery" target="_blank" rel="external">https://github.com/JeasonWong/JikeGallery</a></li>
+</ul>
+<h2 id="LoadingView"><a href="#LoadingView" class="headerlink" title="LoadingView"></a>LoadingView</h2><ul>
+<li>TextView和ImageView等待数据返回时显示的加载动画<br><a href="https://github.com/elye/loaderviewlibrary" target="_blank" rel="external">https://github.com/elye/loaderviewlibrary</a></li>
+<li>仿支付宝 下拉加载动画<br><a href="https://github.com/andyxialm/SmileyLoadingView" target="_blank" rel="external">https://github.com/andyxialm/SmileyLoadingView</a></li>
+<li>简单的带有动画效果的加载控件<br><a href="https://github.com/ldoublem/LoadingView" target="_blank" rel="external">https://github.com/ldoublem/LoadingView</a></li>
+<li>几种炫酷样式的加载动画<br><a href="https://github.com/ybq/Android-SpinKit" target="_blank" rel="external">https://github.com/ybq/Android-SpinKit</a></li>
+<li>高仿58同城 加载动画<br><a href="https://github.com/zzz40500/android-shapeLoadingView" target="_blank" rel="external">https://github.com/zzz40500/android-shapeLoadingView</a></li>
+</ul>
+<h2 id="Multi-Media"><a href="#Multi-Media" class="headerlink" title="Multi-Media"></a>Multi-Media</h2><ul>
+<li>jjdxm_ijkplayer<br><a href="https://github.com/jjdxmashl/jjdxm_ijkplayer/" target="_blank" rel="external">https://github.com/jjdxmashl/jjdxm_ijkplayer/</a></li>
+<li>Yet another implementation ofMediaPlayer class based on OpenSL ES<br><a href="http://android-openslmediaplayer.h6ah4i.com/" target="_blank" rel="external">http://android-openslmediaplayer.h6ah4i.com/</a></li>
+</ul>
+<h2 id="Navigation"><a href="#Navigation" class="headerlink" title="Navigation"></a>Navigation</h2><ul>
+<li>Material Design风格的底部导航栏，效果类似Android Support Library 中的BottomNavigationView 控件<br><a href="https://github.com/roughike/BottomBar" target="_blank" rel="external">https://github.com/roughike/BottomBar</a></li>
+<li>UI优美的底部导航栏<br><a href="https://github.com/armcha/Space-Navigation-View" target="_blank" rel="external">https://github.com/armcha/Space-Navigation-View</a></li>
+<li>一个以Material Design风格展示侧面导航栏的控件<br><a href="https://github.com/andremion/Floating-Navigation-View" target="_blank" rel="external">https://github.com/andremion/Floating-Navigation-View</a></li>
+</ul>
+<h2 id="Progress"><a href="#Progress" class="headerlink" title="Progress"></a>Progress</h2><ul>
+<li>一个圆形进度条，控件中可以设置文字<br><a href="https://github.com/ldoublem/RingProgress" target="_blank" rel="external">https://github.com/ldoublem/RingProgress</a></li>
+<li>A DownloadProgressButton with Animation for Android<br><a href="https://github.com/cctanfujun/ProgressRoundButton" target="_blank" rel="external">https://github.com/cctanfujun/ProgressRoundButton</a></li>
+<li>A ‘Google Fit’ like activity indicator for Android<br><a href="https://github.com/dlazaro66/WheelIndicatorView" target="_blank" rel="external">https://github.com/dlazaro66/WheelIndicatorView</a></li>
+</ul>
+<h2 id="RecyclerView"><a href="#RecyclerView" class="headerlink" title="RecyclerView"></a>RecyclerView</h2><ul>
+<li>支持多选的 RecyclerView<br><a href="https://github.com/dvdciri/MultiChoiceRecyclerView" target="_blank" rel="external">https://github.com/dvdciri/MultiChoiceRecyclerView</a></li>
+<li>RecyclerView 实现流式布局，可以用来做 Tag 标签效果<br><a href="https://github.com/BelooS/ChipsLayoutManager" target="_blank" rel="external">https://github.com/BelooS/ChipsLayoutManager</a></li>
+<li>支持快速快动的RecyclerView<br><a href="https://github.com/L4Digital/FastScroll" target="_blank" rel="external">https://github.com/L4Digital/FastScroll</a></li>
+<li>RecyclerView snapping (实现列表第一个Holder总是完整显示，当滑动使其部分被隐藏时会自动回弹)<br><a href="https://github.com/rubensousa/RecyclerViewSnap" target="_blank" rel="external">https://github.com/rubensousa/RecyclerViewSnap</a></li>
+<li>RecyclerView LayoutManager 实现风车效果<br><a href="https://github.com/Cleveroad/FanLayoutManager" target="_blank" rel="external">https://github.com/Cleveroad/FanLayoutManager</a></li>
+</ul>
+<h2 id="RxJava"><a href="#RxJava" class="headerlink" title="RxJava"></a>RxJava</h2><ul>
+<li>RxJava 绑定 Activity，Fragment 生命周期<br><a href="https://github.com/trello/RxLifecycle" target="_blank" rel="external">https://github.com/trello/RxLifecycle</a></li>
+</ul>
+<h2 id="ScoreView"><a href="#ScoreView" class="headerlink" title="ScoreView"></a>ScoreView</h2><ul>
+<li>SpiderWebScoreView是用于Android上的一个蛛网评分控件<br><a href="https://github.com/xiaopansky/SpiderWebScoreView" target="_blank" rel="external">https://github.com/xiaopansky/SpiderWebScoreView</a></li>
+</ul>
+<h2 id="SearchBar"><a href="#SearchBar" class="headerlink" title="SearchBar"></a>SearchBar</h2><ul>
+<li><a href="https://github.com/mancj/MaterialSearchBar" target="_blank" rel="external">https://github.com/mancj/MaterialSearchBar</a></li>
+</ul>
+<h2 id="SideBar"><a href="#SideBar" class="headerlink" title="SideBar"></a>SideBar</h2><ul>
+<li>WaveSideBar<br><a href="https://github.com/gjiazhe/WaveSideBar" target="_blank" rel="external">https://github.com/gjiazhe/WaveSideBar</a></li>
+<li>一个支持快速导航，排序，顶部悬停的城市列表Demo<br><a href="https://github.com/18722527635/CityDemo" target="_blank" rel="external">https://github.com/18722527635/CityDemo</a></li>
+</ul>
+<h2 id="Splash"><a href="#Splash" class="headerlink" title="Splash"></a>Splash</h2><ul>
+<li>小红书欢迎引导第二版<br><a href="https://github.com/w446108264/XhsWelcomeAnim" target="_blank" rel="external">https://github.com/w446108264/XhsWelcomeAnim</a></li>
+<li>A beautiful way to introduce users to you app<br><a href="https://github.com/eoinfogarty/Onboarding" target="_blank" rel="external">https://github.com/eoinfogarty/Onboarding</a></li>
+</ul>
+<h2 id="TextView"><a href="#TextView" class="headerlink" title="TextView"></a>TextView</h2><ul>
+<li>一个功能强大的TextView扩展控件<br><a href="https://github.com/lygttpod/SuperTextView" target="_blank" rel="external">https://github.com/lygttpod/SuperTextView</a></li>
+<li>一个定时切换 EditText 中 hint 内容的控件<br><a href="https://github.com/cctanfujun/HintAnim-EditText" target="_blank" rel="external">https://github.com/cctanfujun/HintAnim-EditText</a></li>
+</ul>
+<h2 id="Tips（情景提示）"><a href="#Tips（情景提示）" class="headerlink" title="Tips（情景提示）"></a>Tips（情景提示）</h2><ul>
+<li>Google’s Material Design guidelines on feature discovery 情景提示效果代码实现<br><a href="https://github.com/KeepSafe/TapTargetView" target="_blank" rel="external">https://github.com/KeepSafe/TapTargetView</a></li>
+<li>支持在给定控件周围添加情景提示的自定义控件<br><a href="https://github.com/tomergoldst/tooltips" target="_blank" rel="external">https://github.com/tomergoldst/tooltips</a></li>
+</ul>
+<h2 id="ViewPager"><a href="#ViewPager" class="headerlink" title="ViewPager"></a>ViewPager</h2><ul>
+<li>Infinite cycle ViewPager with two-way orientation and interactive effect.<br><a href="https://github.com/DevLight-Mobile-Agency/InfiniteCycleViewPager" target="_blank" rel="external">https://github.com/DevLight-Mobile-Agency/InfiniteCycleViewPager</a></li>
+<li>It’s just an example of carousel browsing, a bit inspired by Frank Lau’s animation.<br><a href="https://github.com/Jaouan/Carousel-Browsing-Example" target="_blank" rel="external">https://github.com/Jaouan/Carousel-Browsing-Example</a></li>
+</ul>
+<h2 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h2><ul>
+<li>自定义双向滑动的seekbar<br><a href="https://github.com/GuoFeilong/ATDragViewDemo" target="_blank" rel="external">https://github.com/GuoFeilong/ATDragViewDemo</a></li>
+<li>一款Material Design 风格的评分控件<br><a href="https://github.com/DreaminginCodeZH/MaterialRatingBar" target="_blank" rel="external">https://github.com/DreaminginCodeZH/MaterialRatingBar</a></li>
+<li>Material Design 风格的 Preference功能页<br><a href="https://github.com/RikkaW/MaterialPreference" target="_blank" rel="external">https://github.com/RikkaW/MaterialPreference</a></li>
+<li>模仿 Smartisan OS 的 BigBang 功能<br><a href="https://github.com/baoyongzhang/BigBang" target="_blank" rel="external">https://github.com/baoyongzhang/BigBang</a></li>
+<li>颜色渐变的ActionBar<br><a href="https://github.com/flouthoc/Gradbar" target="_blank" rel="external">https://github.com/flouthoc/Gradbar</a></li>
+<li>Android开发人员不得不收集的代码(持续更新中)<br><a href="https://github.com/Blankj/AndroidUtilCode" target="_blank" rel="external">https://github.com/Blankj/AndroidUtilCode</a></li>
+<li>高仿微信数字键盘、支付键盘（密码键盘）<br><a href="https://github.com/zuiwuyuan/WeChatPswKeyboard" target="_blank" rel="external">https://github.com/zuiwuyuan/WeChatPswKeyboard</a></li>
+<li>仿Medium 文章页 图文混排效果<br><a href="https://github.com/angebagui/medium-textview" target="_blank" rel="external">https://github.com/angebagui/medium-textview</a></li>
+<li>支持添加，删除，缩放，拖拽的贴图控件<br><a href="https://github.com/wuapnjie/StickerView" target="_blank" rel="external">https://github.com/wuapnjie/StickerView</a></li>
+<li>可以记住历史选项的spinner<br><a href="https://github.com/Jasonchenlijian/MemorySpinner" target="_blank" rel="external">https://github.com/Jasonchenlijian/MemorySpinner</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android 开源代码干货，包括动画／自定义View／开源项目等，持续更新中~&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+      <category term="OpenSource" scheme="http://yoursite.com/categories/Android/OpenSource/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="OpenSource" scheme="http://yoursite.com/tags/OpenSource/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SeekBarExpandView</title>
+    <link href="http://yoursite.com/2016/11/02/SeekBarExpandView/"/>
+    <id>http://yoursite.com/2016/11/02/SeekBarExpandView/</id>
+    <published>2016-11-02T10:08:00.000Z</published>
+    <updated>2016-11-07T09:24:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>奇技淫巧，使用SeekBar实现档位选择功能</p>
+<a id="more"></a>
+<h2 id="SeekBarExpandView"><a href="#SeekBarExpandView" class="headerlink" title="SeekBarExpandView"></a>SeekBarExpandView</h2><p>奇技淫巧，使用<code>SeekBar</code>实现档位选择功能</p>
+<h2 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h2><p><img src="http://og0iupey1.bkt.clouddn.com/seekbar.gif" alt="Foo"></p>
+<h2 id="实现思路"><a href="#实现思路" class="headerlink" title="实现思路"></a>实现思路</h2><p><strong>常用方法</strong></p>
+<p>实现档位选择功能，肯定会想到<code>SeekBar</code>，因为它的<code>setOnSeekBarChangeListener</code>接口提供了<code>onProgressChanged</code>，<code>onStartTrackingTouch</code>，<code>onStopTrackingTouch</code>三个回调方法，极大的方便了处理滑动滑块到临界值的情况。</p>
+<p>既然功能可以实现，接下来需要考虑的应该就是UI效果了。一般情况下，都可以通过定义<code>style</code>来解决。</p>
+<p>尝试后发现，以上方法并不能实现如上预览图中显示的UI效果。</p>
+<p><strong>另外两种实现方式</strong></p>
+<p>第一种方式：自定义<code>View</code>。绘制UI，实现类似<code>SeekBar</code>的滑动功能</p>
+<p>第二种方式：让美工切图作为SeekBar的<code>background</code></p>
+<p><strong>偶然想到的奇技淫巧</strong></p>
+<p>设置SeekBar的背景为透明，使用FrameLayout将SeekBar置于background之上</p>
+<h2 id="解决的问题"><a href="#解决的问题" class="headerlink" title="解决的问题"></a>解决的问题</h2><ul>
+<li>解决<code>SeekBar</code>默认<code>PaddingLeft</code>，<code>PaddingRight</code>的干扰，方便调整<code>SeekBar</code>整体显示位置</li>
+<li>更加简单的为<code>Seekbar</code>添加复杂的<code>background</code>，而不需要通过自定义<code>View</code>的形式来实现，节约开发时间</li>
+</ul>
+<p><strong><a href="https://github.com/tb-yangshu/SeekBarExpandView" target="_blank" rel="external">点击查看源码</a></strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;奇技淫巧，使用SeekBar实现档位选择功能&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="SeekBar" scheme="http://yoursite.com/tags/SeekBar/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vimium-用键盘来操控浏览器</title>
+    <link href="http://yoursite.com/2016/09/07/Vimium-%E7%94%A8%E9%94%AE%E7%9B%98%E6%9D%A5%E6%93%8D%E6%8E%A7%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <id>http://yoursite.com/2016/09/07/Vimium-用键盘来操控浏览器/</id>
+    <published>2016-09-07T07:21:00.000Z</published>
+    <updated>2016-09-07T07:25:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>
+
+<a id="more"></a>
+</p><h3 id="Vimium-The-Hacker’s-Browser"><a href="#Vimium-The-Hacker’s-Browser" class="headerlink" title="Vimium - The Hacker’s Browser"></a>Vimium - The Hacker’s Browser</h3><p>Vimium is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.</p>
+<h3 id="Keyboard-Bindings"><a href="#Keyboard-Bindings" class="headerlink" title="Keyboard Bindings"></a>Keyboard Bindings</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">快捷键</th>
+<th style="text-align:center">说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">?</td>
+<td style="text-align:center">show the help dialog for a list of all available keys</td>
+</tr>
+<tr>
+<td style="text-align:center">h</td>
+<td style="text-align:center">scroll left</td>
+</tr>
+<tr>
+<td style="text-align:center">j</td>
+<td style="text-align:center">scroll down</td>
+</tr>
+<tr>
+<td style="text-align:center">k</td>
+<td style="text-align:center">scroll up</td>
+</tr>
+<tr>
+<td style="text-align:center">l</td>
+<td style="text-align:center">scroll right</td>
+</tr>
+<tr>
+<td style="text-align:center">gg</td>
+<td style="text-align:center">scroll to top of the page</td>
+</tr>
+<tr>
+<td style="text-align:center">G</td>
+<td style="text-align:center">scroll to bottom of the page</td>
+</tr>
+<tr>
+<td style="text-align:center">d</td>
+<td style="text-align:center">scroll down half a page</td>
+</tr>
+<tr>
+<td style="text-align:center">u</td>
+<td style="text-align:center">scroll up half a page</td>
+</tr>
+<tr>
+<td style="text-align:center">f</td>
+<td style="text-align:center">open a link in the current tab</td>
+</tr>
+<tr>
+<td style="text-align:center">F</td>
+<td style="text-align:center">open a link in a new tab</td>
+</tr>
+<tr>
+<td style="text-align:center">r</td>
+<td style="text-align:center">reload</td>
+</tr>
+<tr>
+<td style="text-align:center">gs</td>
+<td style="text-align:center">view source</td>
+</tr>
+<tr>
+<td style="text-align:center">i</td>
+<td style="text-align:center">enter insert mode – all commands will be ignored until you hit Esc to exit</td>
+</tr>
+<tr>
+<td style="text-align:center">yy</td>
+<td style="text-align:center">copy the current url to the clipboard</td>
+</tr>
+<tr>
+<td style="text-align:center">yf</td>
+<td style="text-align:center">copy a link url to the clipboard</td>
+</tr>
+<tr>
+<td style="text-align:center">gf</td>
+<td style="text-align:center">cycle forward to the next frame</td>
+</tr>
+<tr>
+<td style="text-align:center">gF</td>
+<td style="text-align:center">focus the main/top frame</td>
+</tr>
+<tr>
+<td style="text-align:center">o</td>
+<td style="text-align:center">Open URL, bookmark, or history entry</td>
+</tr>
+<tr>
+<td style="text-align:center">O</td>
+<td style="text-align:center">Open URL, bookmark, history entry in a new tab</td>
+</tr>
+<tr>
+<td style="text-align:center">b</td>
+<td style="text-align:center">Open bookmark</td>
+</tr>
+<tr>
+<td style="text-align:center">B</td>
+<td style="text-align:center">Open bookmark in a new tab</td>
+</tr>
+<tr>
+<td style="text-align:center">/</td>
+<td style="text-align:center">enter find mode – type your search query and hit enter to search, or Esc to cancel</td>
+</tr>
+<tr>
+<td style="text-align:center">n</td>
+<td style="text-align:center">cycle forward to the next find match</td>
+</tr>
+<tr>
+<td style="text-align:center">N</td>
+<td style="text-align:center">cycle backward to the previous find</td>
+</tr>
+<tr>
+<td style="text-align:center">H</td>
+<td style="text-align:center">go back in history</td>
+</tr>
+<tr>
+<td style="text-align:center">L</td>
+<td style="text-align:center">go forward in history</td>
+</tr>
+<tr>
+<td style="text-align:center">J, gT</td>
+<td style="text-align:center">go one tab left</td>
+</tr>
+<tr>
+<td style="text-align:center">K, gt</td>
+<td style="text-align:center">go one tab right</td>
+</tr>
+<tr>
+<td style="text-align:center">g0</td>
+<td style="text-align:center">go to the first tab</td>
+</tr>
+<tr>
+<td style="text-align:center">g$</td>
+<td style="text-align:center">go to the last tab</td>
+</tr>
+<tr>
+<td style="text-align:center">^</td>
+<td style="text-align:center">visit the previously-visited tab</td>
+</tr>
+<tr>
+<td style="text-align:center">t</td>
+<td style="text-align:center">create tab</td>
+</tr>
+<tr>
+<td style="text-align:center">yt</td>
+<td style="text-align:center">duplicate current tab</td>
+</tr>
+<tr>
+<td style="text-align:center">x</td>
+<td style="text-align:center">close current tab</td>
+</tr>
+<tr>
+<td style="text-align:center">X</td>
+<td style="text-align:center">restore closed tab (i.e. unwind the ‘x’ command)</td>
+</tr>
+<tr>
+<td style="text-align:center">T</td>
+<td style="text-align:center">search through your open tabs</td>
+</tr>
+<tr>
+<td style="text-align:center">a-p</td>
+<td style="text-align:center">pin/unpin current tab</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Chrome" scheme="http://yoursite.com/categories/Chrome/"/>
+    
+    
+      <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+      <category term="Chrome" scheme="http://yoursite.com/tags/Chrome/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WebView 知识点</title>
+    <link href="http://yoursite.com/2016/08/24/WebView-%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>http://yoursite.com/2016/08/24/WebView-知识点/</id>
+    <published>2016-08-24T03:08:50.000Z</published>
+    <updated>2016-10-19T04:08:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>WebView 使用配置及常见问题总结，持续更新中～</p>
+<a id="more"></a>
+<h2 id="InitWebView"><a href="#InitWebView" class="headerlink" title="InitWebView"></a>InitWebView</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">protected</span> <span class="keyword">void</span> <span class="title">initWebView</span><span class="params">(View view)</span> </span>&#123;</div><div class="line">            mWebView = (WebView) view.findViewById(R.id.web_view);</div><div class="line">            mWebView.setWebViewClient(mWebViewClient);</div><div class="line">    </div><div class="line">            WebSettings settings = mWebView.getSettings();</div><div class="line">    </div><div class="line">            <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= <span class="number">21</span>) &#123;</div><div class="line">    			settings.setMixedContentMode(WebSettings.MIXED_CONTENT_ALWAYS_ALLOW);</div><div class="line">            &#125;</div><div class="line">    </div><div class="line">            <span class="comment">// Enable Javascript</span></div><div class="line">            settings.setJavaScriptEnabled(<span class="keyword">true</span>);</div><div class="line">    </div><div class="line">            <span class="comment">// Use WideViewport and Zoom out if there is no viewport defined</span></div><div class="line">            settings.setUseWideViewPort(<span class="keyword">true</span>);</div><div class="line">            settings.setLoadWithOverviewMode(<span class="keyword">true</span>);</div><div class="line">    </div><div class="line">            <span class="comment">// Enable pinch to zoom without the zoom buttons</span></div><div class="line">            settings.setBuiltInZoomControls(<span class="keyword">true</span>);</div><div class="line">    </div><div class="line">            <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt; Build.VERSION_CODES.HONEYCOMB) &#123;</div><div class="line">                <span class="comment">// Hide the zoom controls for HONEYCOMB+</span></div><div class="line">                settings.setDisplayZoomControls(<span class="keyword">false</span>);</div><div class="line">            &#125;</div><div class="line">    </div><div class="line">            <span class="comment">// Enable remote debugging via chrome://inspect</span></div><div class="line">            <span class="keyword">if</span> (Build.VERSION.SDK_INT &gt;= Build.VERSION_CODES.KITKAT) &#123;</div><div class="line">                WebView.setWebContentsDebuggingEnabled(<span class="keyword">true</span>);</div><div class="line">            &#125;</div><div class="line">    </div><div class="line">            settings.setCacheMode(WebSettings.LOAD_DEFAULT);</div><div class="line">            settings.setAllowFileAccess(<span class="keyword">true</span>);</div><div class="line">            settings.setAppCacheEnabled(<span class="keyword">true</span>);</div><div class="line">            settings.setDomStorageEnabled(<span class="keyword">true</span>);</div><div class="line">            settings.setDatabaseEnabled(<span class="keyword">true</span>);</div><div class="line">            settings.setUserAgentString(webSettings.getUserAgentString());</div><div class="line">        &#125;</div></pre></td></tr></table></figure>
+<h2 id="syncCookies"><a href="#syncCookies" class="headerlink" title="syncCookies"></a>syncCookies</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">syncCookies</span><span class="params">(<span class="keyword">final</span> Context context)</span> </span>&#123;</div><div class="line">    </div><div class="line">            CookieManager cookieManager = CookieManager.getInstance();</div><div class="line">    </div><div class="line">            String cookies = LoggedInUser.getCookie();</div><div class="line">            <span class="keyword">if</span> (TextUtils.isEmpty(cookies)) &#123;</div><div class="line">                <span class="keyword">return</span>;</div><div class="line">            &#125;</div><div class="line">            String[] cks = cookies.split(<span class="string">";"</span>);</div><div class="line">            <span class="keyword">if</span> (cks == <span class="keyword">null</span> || cks.length == <span class="number">0</span>) &#123;</div><div class="line">                <span class="keyword">return</span>;</div><div class="line">            &#125;</div><div class="line">            CookieSyncManager.createInstance(context);</div><div class="line">    </div><div class="line">            cookieManager.setAcceptCookie(<span class="keyword">true</span>);</div><div class="line">    </div><div class="line">            String[] domains = <span class="keyword">new</span> String[]&#123;</div><div class="line">                    <span class="string">"www.baidu.com"</span>, <span class="comment">// public release</span></div><div class="line">            &#125;;</div><div class="line">    </div><div class="line">            <span class="keyword">for</span> (String domain : domains) &#123;</div><div class="line">                <span class="keyword">for</span> (String ck : cks) &#123;</div><div class="line">                    cookieManager.setCookie(domain, ck);</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            CookieSyncManager.getInstance().sync();</div><div class="line">        &#125;</div></pre></td></tr></table></figure>
+<h2 id="Java-amp-amp-js"><a href="#Java-amp-amp-js" class="headerlink" title="Java &amp;&amp; js"></a>Java &amp;&amp; js</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//方法一</span></div><div class="line"><span class="comment">//最常被使用</span></div><div class="line">mWebView.loadUrl(<span class="string">"javascript:getShareData()"</span>);</div><div class="line"> mWebView.addJavascriptInterface(<span class="keyword">new</span> JavaScriptInterface(), <span class="string">"demo"</span>);</div><div class="line"></div><div class="line">     <span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">JavaScriptInterface</span> </span>&#123;</div><div class="line">    </div><div class="line">            <span class="meta">@JavascriptInterface</span></div><div class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">getShareData</span><span class="params">(String title, String description, String pictureUrl)</span> </span>&#123;</div><div class="line">                mBaseShareData.title = title;</div><div class="line">                mBaseShareData.description = description;</div><div class="line">                mBaseShareData.pictureUrl = pictureUrl;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line"></div><div class="line"><span class="comment">//Android 4.4之后新增</span></div><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">testEvaluateJavascript</span><span class="params">(WebView webView)</span> </span>&#123;</div><div class="line">  webView.evaluateJavascript(<span class="string">"getGreetings()"</span>, <span class="keyword">new</span> ValueCallback&lt;String&gt;()&#123;</div><div class="line">    <span class="meta">@Override</span></div><div class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">onReceiveValue</span><span class="params">(String value)</span> </span>&#123;</div><div class="line">        Log.i(LOGTAG, <span class="string">"onReceiveValue value="</span> + value);</div><div class="line">    &#125;</div><div class="line">  &#125;);</div><div class="line">  </div><div class="line"><span class="comment">//方法二(通过WebViewClient拦截请求的方式进行交互)</span></div><div class="line"><span class="keyword">private</span> WebViewClient mWebViewClient = <span class="keyword">new</span> WebViewClient() &#123;</div><div class="line">        <span class="meta">@Override</span></div><div class="line">        <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">shouldOverrideUrlLoading</span><span class="params">(WebView view, String url)</span> </span>&#123;</div><div class="line">          <span class="comment">//解析url来决定要执行的操作</span></div><div class="line">        &#125;</div><div class="line">&#125;</div><div class="line">  </div><div class="line"><span class="comment">//方法三(通过拦截Js中的提示方法获取内容  进行交互)</span></div><div class="line">mWebView.setWebChromeClient(<span class="keyword">new</span> WebChromeClient() &#123;</div><div class="line">            <span class="meta">@Override</span></div><div class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">onJsAlert</span><span class="params">(WebView view, String url, String message, JsResult result)</span> </span>&#123;</div><div class="line">                <span class="keyword">return</span> <span class="keyword">super</span>.onJsAlert(view, url, message, result);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            <span class="meta">@Override</span></div><div class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">onJsConfirm</span><span class="params">(WebView view, String url, String message, JsResult result)</span> </span>&#123;</div><div class="line">                <span class="keyword">return</span> <span class="keyword">super</span>.onJsConfirm(view, url, message, result);</div><div class="line">            &#125;</div><div class="line"></div><div class="line">            <span class="meta">@Override</span></div><div class="line">            <span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> <span class="title">onJsPrompt</span><span class="params">(WebView view, String url, String message, String defaultValue, JsPromptResult result)</span> </span>&#123;</div><div class="line">                <span class="keyword">return</span> <span class="keyword">super</span>.onJsPrompt(view, url, message, defaultValue, result);</div><div class="line">            &#125;</div><div class="line">        &#125;);</div></pre></td></tr></table></figure>
+<h2 id="校验Uri-scheme"><a href="#校验Uri-scheme" class="headerlink" title="校验Uri scheme"></a>校验Uri scheme</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">boolean</span> <span class="title">isNetworkUrl</span><span class="params">(String url)</span> </span>&#123;</div><div class="line">         Uri uri = Uri.parse(url);</div><div class="line">         String scheme = <span class="string">""</span>;</div><div class="line">         <span class="keyword">if</span> (uri != <span class="keyword">null</span>) &#123;</div><div class="line">             scheme = uri.getScheme();</div><div class="line">         &#125;</div><div class="line">         <span class="keyword">return</span> <span class="string">"http"</span>.equals(scheme) || <span class="string">"https"</span>.equals(scheme);</div><div class="line">     &#125;</div></pre></td></tr></table></figure>
+<h2 id="WebView-中onPause-onResume-pauseTimers-resumeTimers的使用"><a href="#WebView-中onPause-onResume-pauseTimers-resumeTimers的使用" class="headerlink" title="WebView 中onPause,onResume,pauseTimers,resumeTimers的使用"></a>WebView 中onPause,onResume,pauseTimers,resumeTimers的使用</h2><ul>
+<li><p>执行WebView中<code>onPause</code>方法可以暂停网页中DOM, plugins, JavaScript等操作，如果设备处于锁屏状态，可以减少不必要的CPU和网络操作，设备重新被激活后，再调用<code>onResume</code>方法来恢复。</p>
+</li>
+<li><p><code>pauseTimers</code> 和<code>resumeTimers</code> 解决WebViewCoreThread problem，详见</p>
+<p><a href="http://www.anddev.org/other-coding-problems-f5/webviewcorethread-problem-t10234.html" target="_blank" rel="external">http://www.anddev.org/other-coding-problems-f5/webviewcorethread-problem-t10234.html</a></p>
+</li>
+</ul>
+<h2 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a>常见问题</h2><ul>
+<li>网页地址必须包含<code>http</code>或者<code>https</code>，传入测试网址参数时容易忽略</li>
+<li><code>evaluateJavascript</code>方法必须在<code>UI线程</code>调用，因此<code>onReceiveValue</code>也执行在主线程</li>
+<li>加载<code>Uri</code>之前建议先校验<code>scheme</code></li>
+</ul>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul>
+<li><a href="http://droidyue.com/blog/2014/09/20/interaction-between-java-and-javascript-in-android/index.html" target="_blank" rel="external">Android中Java和JavaScript交互</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;WebView 使用配置及常见问题总结，持续更新中～&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="WebView" scheme="http://yoursite.com/tags/WebView/"/>
+    
+      <category term="JS" scheme="http://yoursite.com/tags/JS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Nougat New Feature</title>
+    <link href="http://yoursite.com/2016/08/23/Android-Nougat-New-Feature/"/>
+    <id>http://yoursite.com/2016/08/23/Android-Nougat-New-Feature/</id>
+    <published>2016-08-23T04:29:30.000Z</published>
+    <updated>2016-08-23T09:47:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Android Nougat reflects input from thousands of fans and developers all over the world. There are over 250 major features in Android Nougat, but we wanted to highlight a few of the features you’ve been most excited about.</p>
+<a id="more"></a>
+<ol>
+<li>Performance<ul>
+<li>JIT compiler: The new JIT compiler improves runtime device performance, reduces the amount of storage space required for apps, and makes app and system updates much faster.</li>
+<li>VR mode: With VR mode, Android Nougat is ready to transport you to new worlds. Coming soon with Daydream and Daydream-ready phones.</li>
+<li>Vulkan™ API: Vulkan API is a real game changer with high-performance 3D graphics. See apps leap to life with sharper graphics and eye candy effects.</li>
+</ul>
+</li>
+<li>Battery &amp; Data<ul>
+<li>Doze: Doze is now dozier, with your device going into lower power usage when you’re on the move. That means your Android device will conserve battery even when it’s jostling around in your pocket.</li>
+<li>Data saver: Limit how much data your device uses with Data Saver. When Data Saver is turned on, apps in the background won’t be able to access cell data.</li>
+</ul>
+</li>
+<li>Productivity<ul>
+<li>Split-screen mode: Now you can multitask with ease. Run two apps side by side in split-screen mode – watch a movie while texting, or read a recipe with your timer open.</li>
+<li>Picture-in-picture mode: On Android TV, you can continue watching your current video while browsing or changing settings.</li>
+<li>Quick switch: Double tap the Overview button to switch between your two most recently used apps.</li>
+</ul>
+</li>
+<li>Notifications<ul>
+<li>Bundled notifications: See what’s new at a glance with bundled notifications from individual apps. Simply tap to view each alert.</li>
+<li>Direct reply: Direct reply lets you quickly reply to a message, directly from within the notification shade. So, you no longer need to launch the app to fire off a quick response.</li>
+<li>Notification controls: When a notification pops up, just press and hold to toggle the settings. For instance, you can silence future alerts from an app in the notification itself.</li>
+</ul>
+</li>
+<li>System usability improvements<ul>
+<li>Customizable Quick Settings: Rearrange your Quick Setting tiles so you can get to what you want faster.</li>
+<li>Quick Settings bar: Quick Settings has been redesigned so you can get faster access to top Quick Settings tiles directly in the notification shade.</li>
+<li>Improved Settings navigation: Find the right setting faster with an updated navigation menu in Settings.</li>
+<li>Settings suggestions: Within Settings, get suggestions for how to get even more out of your device.</li>
+<li>‘Clear all’ in Overview: Instantly close all of your apps running in the background by tapping ‘clear all’ in Overview.</li>
+<li>Emergency information: Emergency Information lets you add information such as name, blood type, allergies, and an emergency contact so that emergency responders can view this information through your device’s lock screen.</li>
+<li>Lockscreen wallpaper: You can now have different wallpapers on your device’s homescreen and lockscreen.</li>
+</ul>
+</li>
+<li>Emoji<ul>
+<li>Unicode 9 emoji: Bring your words to life with all-new emoji, including redesigned human emoji with multiple skin tones.</li>
+</ul>
+</li>
+<li>Privacy &amp; Security<ul>
+<li>Direct boot: When restarting your device, Direct Boot helps it start up faster, and ensures that important communications still run. So before you even put in your password, you’ll still get that important text message and hear your alarm clock ring.</li>
+<li>Seamless software updates: On select, new devices running Android Nougat, OS updates can download in the background, so you can go on with your day while your device syncs with the latest OS.</li>
+<li>File-based encryption: Building on top of our security platform, Android Nougat introduces file-based encryption. By encrypting at the file level instead of the block level, Android can better isolate and protect files for individual users on your device.</li>
+<li>Scoped folder access: Apps can request access to specific folders that you can allow or deny access to (just like app runtime permissions). This is a reduced-scope version of the Storage permission for Apps that only need access to certain folders. It can also allow Apps to request direct access to removable media (on devices with that hardware).</li>
+<li>Trusted face: Trusted face, a part of Smart Lock, makes unlocking even easier thanks to a new face recognizer. The new recognizer is less sensitive to conditions like lighting, facial decorations (eyewear, facial hair, etc.), and how you hold your phone. Available on select devices.</li>
+</ul>
+</li>
+<li>Device setup &amp; migration<ul>
+<li>Improved system backup coverage: More device settings are covered by Android Backup, including accessibility settings, run-time permissions for apps, Wi-Fi hotspot settings and Wi-Fi network restrictions.</li>
+</ul>
+</li>
+<li>Internationalization<ul>
+<li>Multi-locale support: Select multiple locales in Settings to tailor experiences for you, such as showing search results in multiple languages and not offering to translate webpages in a language you already know.</li>
+<li>New languages supported: Coupled with allowing you to select multiple languages preferences, Android Nougat allows you to select from 100 new languages and 25 locales for commonly used languages such as English, Spanish, French, and Arabic. This enables Apps to better support and understanding your language preferences even if your devices lacks official support for it.</li>
+<li>New language preferences: Sort your language preferences so that apps can pick the right keyboard &amp; text for you.</li>
+</ul>
+</li>
+<li>Accessibility<ul>
+<li>Accessibility settings in setup: It’s easier than ever before for you to discover and configure accessibility features on your new device. Set magnification gesture, font size, display size, and TalkBack right out of the box.</li>
+<li>Display size: Not only can you change the size of the text on your device, but the size of all the display elements like icons and images.</li>
+<li>Accessibility mono output: Accessibility mono output assists users with hearing loss in one ear by combining stereo left and right channel output to a single mono stream.</li>
+<li>Variable text to speech speed: Variable text to speech speed increases productivity of text to speech users by allowing setting wider range for speech speed and pitches.</li>
+</ul>
+</li>
+<li>Android for Work<ul>
+<li>Work mode: Work mode allows you to turn on and off your device’s work apps and notifications for a better work, life balance.</li>
+</ul>
+</li>
+</ol>
+<p><strong>Read More:</strong></p>
+<p><a href="https://www.android.com/versions/nougat-7-0/" target="_blank" rel="external">https://www.android.com/versions/nougat-7-0/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android Nougat reflects input from thousands of fans and developers all over the world. There are over 250 major features in Android Nougat, but we wanted to highlight a few of the features you’ve been most excited about.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Nougat" scheme="http://yoursite.com/tags/Nougat/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 内存泄漏调试步骤</title>
+    <link href="http://yoursite.com/2016/07/26/Android-%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E8%B0%83%E8%AF%95%E6%AD%A5%E9%AA%A4/"/>
+    <id>http://yoursite.com/2016/07/26/Android-内存泄漏调试步骤/</id>
+    <published>2016-07-26T03:37:24.000Z</published>
+    <updated>2016-10-25T04:16:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 Android Device Monitor 及 MAT 调试分析 Android 内存泄漏</p>
+<a id="more"></a>
+<p><strong>调试步骤：</strong></p>
+<ul>
+<li>安装应用到移动设备</li>
+<li>打开 Android Device Monitor (Tools –&gt; Android –&gt; Android Device Monitor)</li>
+<li>进入可能存在内存泄漏的页面，然后退出，重复操作几次</li>
+<li>选中 Devices 列表中的应用包名，点击 update Heap 图标，在 Heap 标签页中可以看到内存占用情况</li>
+<li>点击 Cause GC 手动回收内存</li>
+<li>点击 Dump HPROF file 导出内存分析文件</li>
+</ul>
+<p><strong>分析步骤：</strong></p>
+<ul>
+<li>下载 MAT </li>
+<li>使用命令将导出的 hprof 文件转成 MAT 软件可以解析的文件 (hprof-conv file.hprof newfile.hprof)</li>
+<li>将生成的 hprof 文件导入 MAT </li>
+<li>点击 QQL 图标进入 QQL 标签页，输入select * from instance of android.app.Activity 并点击执行</li>
+<li>查询结果列表中展示出存在内存泄漏的Activity</li>
+<li>选中列表中某一项，右键选中 Path To GC Roots 后，点击 exclude all phantom/weak/soft etc. references</li>
+<li>新打开的页面中会展示出导致内存泄漏的对象</li>
+<li>分析发生内存泄漏的原因并修正</li>
+</ul>
+<p><strong>发生内存泄漏的原因：</strong></p>
+<ul>
+<li>Handler 使用不当，持有 Activity Context 导致的内存泄漏</li>
+<li>Adapter 中 onViewDetachedFromWindow 方法没有被调用，引起的 Holder 无法被释放，从而导致 内存泄漏 (解决办法：Activity 销毁时 setAdapter(null) )</li>
+<li>自定义 View 持有 Activity Context 导致内存泄漏</li>
+</ul>
+<p><strong>遇到的Keng：</strong></p>
+<ul>
+<li>使用 Android Studio 中 Android Monitors 标签页 点击 Dump Java Heap 无法导出 hprof 内存分析文件</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用 Android Device Monitor 及 MAT 调试分析 Android 内存泄漏&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="内存泄漏" scheme="http://yoursite.com/tags/%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/"/>
+    
+      <category term="性能优化" scheme="http://yoursite.com/tags/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Studio 快捷键总结（mac）</title>
+    <link href="http://yoursite.com/2016/04/15/Android-Studio-%E5%BF%AB%E6%8D%B7%E9%94%AE%E6%80%BB%E7%BB%93%EF%BC%88mac%EF%BC%89/"/>
+    <id>http://yoursite.com/2016/04/15/Android-Studio-快捷键总结（mac）/</id>
+    <published>2016-04-15T05:59:43.000Z</published>
+    <updated>2016-09-29T12:20:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Android Studio常用快捷键总结，提高开发效率，持续更新中~<br><a id="more"></a></p>
+<table>
+<thead>
+<tr>
+<th>快捷键</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alt+command+h</td>
+<td>显示方法调用树</td>
+</tr>
+<tr>
+<td>alt+F7</td>
+<td>查找被调用的地方</td>
+</tr>
+<tr>
+<td>command+7</td>
+<td>显示类结构</td>
+</tr>
+<tr>
+<td>command+F12</td>
+<td>在对话框中显示类结构</td>
+</tr>
+<tr>
+<td>command+shift+F7</td>
+<td>高亮</td>
+</tr>
+<tr>
+<td>ctrl+R</td>
+<td>run</td>
+</tr>
+<tr>
+<td>command+option+v</td>
+<td>自动定义变量名</td>
+</tr>
+<tr>
+<td>shift+F6</td>
+<td>rename</td>
+</tr>
+<tr>
+<td>command+shift+F</td>
+<td>全局查找</td>
+</tr>
+<tr>
+<td>F6</td>
+<td>移动文件</td>
+</tr>
+<tr>
+<td>option+command+L</td>
+<td>格式化代码</td>
+</tr>
+<tr>
+<td>ctrl+p</td>
+<td>移动鼠标到上一行</td>
+</tr>
+<tr>
+<td>ctrl+n</td>
+<td>移动鼠标到下一行</td>
+</tr>
+<tr>
+<td>alt+ctrl+o</td>
+<td>移除无效引用</td>
+</tr>
+<tr>
+<td>command+z</td>
+<td>恢复内容到本次修改之前</td>
+</tr>
+<tr>
+<td>command+shift+z</td>
+<td>恢复内容到上次修改之后</td>
+</tr>
+<tr>
+<td>option+command+m</td>
+<td>提取方法</td>
+</tr>
+<tr>
+<td>fn+f3</td>
+<td>收藏</td>
+</tr>
+<tr>
+<td>shift+option+f</td>
+<td>添加到喜欢列表</td>
+</tr>
+<tr>
+<td>command+shift+U</td>
+<td>大小写转换</td>
+</tr>
+<tr>
+<td>alt+command+B / click</td>
+<td>查看接口实现类</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android Studio常用快捷键总结，提高开发效率，持续更新中~&lt;br&gt;
+    
+    </summary>
+    
+      <category term="Android Studio" scheme="http://yoursite.com/categories/Android-Studio/"/>
+    
+    
+      <category term="Android Studio" scheme="http://yoursite.com/tags/Android-Studio/"/>
+    
+      <category term="快捷键" scheme="http://yoursite.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开源项目大集合</title>
+    <link href="http://yoursite.com/2016/04/14/Android%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E5%A4%A7%E9%9B%86%E5%90%88/"/>
+    <id>http://yoursite.com/2016/04/14/Android开源项目大集合/</id>
+    <published>2016-04-14T07:25:04.000Z</published>
+    <updated>2016-08-03T09:33:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="更多Android学习资源，可star此repo"><a href="#更多Android学习资源，可star此repo" class="headerlink" title="更多Android学习资源，可star此repo"></a>更多Android学习资源，可star此<a href="https://github.com/tb-yangshu/AndroidNote" target="_blank" rel="external">repo</a></h4><a id="more"></a>
+<ul>
+<li><p>GitHub上的各大开源库的收录和分析</p>
+<blockquote>
+<p><a href="https://github.com/Trinea/android-open-project" target="_blank" rel="external">Trinea/android-open-project · GitHub</a></p>
+</blockquote>
+</li>
+<li><p>AndroidOpenSourceProject</p>
+<blockquote>
+<p><a href="http://www.androidopensourceproject.com/" target="_blank" rel="external">Android Open Source Project dedicated to collect high-quality Android open source project.</a></p>
+</blockquote>
+</li>
+<li><p>AndroidLibs</p>
+<blockquote>
+<p><a href="https://github.com/XXApple/AndroidLibs" target="_blank" rel="external">收集Android开发中优秀的开源组件库</a></p>
+</blockquote>
+</li>
+<li><p>awesome-android</p>
+<blockquote>
+<p><a href="https://github.com/snowdream/awesome-android" target="_blank" rel="external">android libs from github</a></p>
+</blockquote>
+</li>
+<li><p>23CODE android经典开源代码分享</p>
+<blockquote>
+<p><a href="http://www.23code.com/" target="_blank" rel="external">http://www.23code.com/</a>    </p>
+</blockquote>
+</li>
+<li><p>Android 资源大全</p>
+<blockquote>
+<p><a href="http://android.jobbole.com/84069/" target="_blank" rel="external">GitHub 上有一个 Awesome – XXX 系列的资源整理。Awesome Android 是JStumpp 发起维护的 Android 资源列表，内容包括：图表工具、游戏开发、GUI、崩溃检测、调试工具、通知、图片加载、依赖注入等等。</a></p>
+</blockquote>
+</li>
+<li><p>代码片段</p>
+<blockquote>
+<ul>
+<li><p><a href="http://www.phpxs.com/code" target="_blank" rel="external">代码片段，代码分享，PHP代码分享，Java代码分享,Ruby代码分享，Python代码分享，HTML代码分享，CSS代码分享，SQL代码分享，JavaScript代码分享</a></p>
+</li>
+<li><p><a href="http://gold.xitu.io/entry/5674c81300b01b78b5471d3e/view" target="_blank" rel="external">Java 代码片段分享</a></p>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><a href="http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&amp;mid=402675429&amp;idx=1&amp;sn=ba3afd2069004b220eaa8a77fdecbaf7#rd" target="_blank" rel="external">GitHub Top 100的Android开源库</a></p>
+</li>
+<li><p><a href="http://www.jianshu.com/p/aa7238cd8daf" target="_blank" rel="external">2015年十大热门Android开源新项目</a></p>
+<blockquote>
+<ul>
+<li><p><a href="https://github.com/facebook/fresco" target="_blank" rel="external">fresco</a></p>
+</li>
+<li><p><a href="https://github.com/square/leakcanary" target="_blank" rel="external">leakcanary</a></p>
+</li>
+<li><p><a href="https://github.com/HannahMitt/HomeMirror" target="_blank" rel="external">HomeMirror</a></p>
+</li>
+<li><p><a href="https://github.com/googlesamples/android-UniversalMusicPlayer" target="_blank" rel="external">android-UniversalMusicPlayer</a></p>
+</li>
+<li><p><a href="https://github.com/chrisbanes/cheesesquare" target="_blank" rel="external">cheesesquare</a></p>
+</li>
+<li><p><a href="https://github.com/nickbutcher/plaid" target="_blank" rel="external">plaid</a></p>
+</li>
+<li><p><a href="https://github.com/facebook/stetho" target="_blank" rel="external">stetho</a></p>
+</li>
+<li><p><a href="https://github.com/florent37/MaterialViewPager" target="_blank" rel="external">MaterialViewPager</a></p>
+</li>
+<li><p><a href="https://github.com/mikepenz/MaterialDrawer" target="_blank" rel="external">MaterialDrawer</a></p>
+</li>
+<li><p><a href="https://github.com/lgvalle/Material-Animations" target="_blank" rel="external">Material-Animations</a></p>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;更多Android学习资源，可star此repo&quot;&gt;&lt;a href=&quot;#更多Android学习资源，可star此repo&quot; class=&quot;headerlink&quot; title=&quot;更多Android学习资源，可star此repo&quot;&gt;&lt;/a&gt;更多Android学习资源，可star此&lt;a href=&quot;https://github.com/tb-yangshu/AndroidNote&quot;&gt;repo&lt;/a&gt;&lt;/h4&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="开源" scheme="http://yoursite.com/tags/%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Hexo、Github搭建属于自己的blog网站</title>
+    <link href="http://yoursite.com/2016/04/08/%E4%BD%BF%E7%94%A8Hexo%E3%80%81Github%E6%90%AD%E5%BB%BA%E5%B1%9E%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84blog%E7%BD%91%E7%AB%99/"/>
+    <id>http://yoursite.com/2016/04/08/使用Hexo、Github搭建属于自己的blog网站/</id>
+    <published>2016-04-08T15:33:11.000Z</published>
+    <updated>2016-10-25T05:58:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用Hexo搭建blog笔记</p>
+<a id="more"></a>
+<h2 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h2><p>git、node.js</p>
+<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>步骤参加<a href="https://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a></p>
+<h2 id="生成静态网页文件"><a href="#生成静态网页文件" class="headerlink" title="生成静态网页文件"></a>生成静态网页文件</h2><p>依次执行命令</p>
+<ul>
+<li>hexo g  </li>
+<li>hexo d</li>
+</ul>
+<p>blog中public文件夹下即为生成的静态网页文件</p>
+<h2 id="发布静态文件到Github"><a href="#发布静态文件到Github" class="headerlink" title="发布静态文件到Github"></a>发布静态文件到Github</h2><ul>
+<li><p>Github创建</p>
+</li>
+<li><p>push静态文件到Github</p>
+</li>
+</ul>
+<h2 id="安装部署插件"><a href="#安装部署插件" class="headerlink" title="安装部署插件"></a>安装部署插件</h2><p>Terminal中执行</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure>
+<p>Hexo根目录下——config.yml中添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">	type: git</div><div class="line">  	repo: git@gitcafe.com:xxxx/xxxx.git</div><div class="line">  	branch: gitcafe-pages</div></pre></td></tr></table></figure>
+<p>部署命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo d -g</div></pre></td></tr></table></figure>
+<h2 id="新建标签页"><a href="#新建标签页" class="headerlink" title="新建标签页"></a>新建标签页</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page &quot;&quot;</div></pre></td></tr></table></figure>
+<h2 id="新建文章"><a href="#新建文章" class="headerlink" title="新建文章"></a>新建文章</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;&quot;</div></pre></td></tr></table></figure>
+<h2 id="新建草稿"><a href="#新建草稿" class="headerlink" title="新建草稿"></a>新建草稿</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new draft &quot;&quot;</div></pre></td></tr></table></figure>
+<h2 id="写作命令"><a href="#写作命令" class="headerlink" title="写作命令"></a>写作命令</h2><ul>
+<li>建立新文章：hexo n “新文章名”</li>
+<li>预览文章：hexo s</li>
+<li>生成网页：hexo g</li>
+<li>发布文章：hexo d</li>
+<li>生成网页并发布文章：hexo d -g</li>
+</ul>
+<h2 id="可能遇到的错误"><a href="#可能遇到的错误" class="headerlink" title="可能遇到的错误"></a>可能遇到的错误</h2><ul>
+<li><p>标签页点击后页面为空</p>
+<blockquote>
+<ol>
+<li>检查source文件夹中是否有对应tag的文件夹</li>
+<li>检查对应tag文件夹中md文件是否添加type: “XXX”</li>
+</ol>
+</blockquote>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用Hexo搭建blog笔记&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Geek Tool" scheme="http://yoursite.com/categories/Geek-Tool/"/>
+    
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android开发过程中遇到的关于so文件的问题</title>
+    <link href="http://yoursite.com/2015/12/31/Android%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E5%85%B3%E4%BA%8Eso%E6%96%87%E4%BB%B6%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2015/12/31/Android开发过程中遇到的关于so文件的问题/</id>
+    <published>2015-12-31T03:30:00.000Z</published>
+    <updated>2016-08-23T09:05:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近开发的项目中涉及到使用JNI调用libs中so文件来进行图片识别。遇到的问题是测试发现应用在某些设备不能调用识别功能。</p>
+<a id="more"></a>
+<h1 id="问题背景"><a href="#问题背景" class="headerlink" title="问题背景"></a>问题背景</h1><p>最近开发的项目中涉及到使用JNI调用libs中so文件来进行图片识别。遇到的问题是测试发现应用在某些设备不能调用识别功能。</p>
+<h1 id="项目中libs结构"><a href="#项目中libs结构" class="headerlink" title="项目中libs结构"></a>项目中libs结构</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">libs</div><div class="line">├─ x86_64</div><div class="line">├─ x86</div><div class="line">├─ mips64</div><div class="line">├─ mips</div><div class="line">├─ armeabi-v7a</div><div class="line">├─ armeabi</div><div class="line">└─ arm64-v8a</div></pre></td></tr></table></figure>
+<h1 id="定位问题"><a href="#定位问题" class="headerlink" title="定位问题"></a>定位问题</h1><ol>
+<li>识别功能不能使用说明问题出现在JNI调用部分</li>
+<li>检测到应用中的so文件没有被加载到设备中</li>
+<li>发现设备优先加载armeabi-v7a包中的so文件</li>
+<li>libs中只有armeabi文件夹中包含了识别功能的so文件</li>
+</ol>
+<h1 id="解决问题"><a href="#解决问题" class="headerlink" title="解决问题"></a>解决问题</h1><ul>
+<li>方法一：将so文件放到所有libs子文件夹下</li>
+<li>方法二：libs文件夹只包含armeabi文件夹</li>
+</ul>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ol>
+<li>设备加载so文件的方式与应用加载Drawable图片的方式不一样，如果有与设备CPU架构符合的文件夹(如armeabi-v7a)，就只会加载当前文件夹下的so。即使armeabi-v7a包中没有，而armeabi包中有，设备也不会去加载。</li>
+<li>libs中包含多个文件夹的功能是为不同CPU架构的设备提供不同的so文件，这样可以提高硬件的性能。如果我们的so文件适配不了项目libs中所支持的所有架构，那建议就都不支持，只留armeabi。</li>
+</ol>
+<h1 id="调试中使用到的工具"><a href="#调试中使用到的工具" class="headerlink" title="调试中使用到的工具"></a>调试中使用到的工具</h1><p><code>Native Libs Monitor</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近开发的项目中涉及到使用JNI调用libs中so文件来进行图片识别。遇到的问题是测试发现应用在某些设备不能调用识别功能。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="android" scheme="http://yoursite.com/tags/android/"/>
+    
+      <category term="NDK" scheme="http://yoursite.com/tags/NDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>属性动画</title>
+    <link href="http://yoursite.com/2015/12/24/%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB/"/>
+    <id>http://yoursite.com/2015/12/24/属性动画/</id>
+    <published>2015-12-24T10:04:41.000Z</published>
+    <updated>2016-10-24T10:09:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>
+
+<a id="more"></a>
+</p><h2 id="与补间动画的区别"><a href="#与补间动画的区别" class="headerlink" title="与补间动画的区别"></a>与补间动画的区别</h2><ul>
+<li>补间动画只能为View实现动画效果，属性动画可以为任意对象添加动画效果</li>
+<li>补间动画通过<code>ParentView</code>不断改变<code>ChildView</code>的方式来实现动画效果，属性动画是通过改变对象属性的方式实现动画效果</li>
+<li>补间动画通过相关Api来实现对应的动画，属性动画中<code>ObjectAnimator</code>需要传入动画名称参数，进而调用动画名称对应的get，set方法实现动画效果</li>
+</ul>
+<h2 id="ValueAnimator"><a href="#ValueAnimator" class="headerlink" title="ValueAnimator"></a>ValueAnimator</h2><p>ValueAnimator的功能：</p>
+<ul>
+<li>计算动画开始值到借宿值的过渡</li>
+<li>设置播放次数，播放模式</li>
+<li>监听动画的执行</li>
+</ul>
+<p>注：ValueAnimator的ofFloat方法允许传入多个参数</p>
+<h2 id="ObjectAnimator"><a href="#ObjectAnimator" class="headerlink" title="ObjectAnimator"></a>ObjectAnimator</h2><p>ObjectAnimator<strong>继承于</strong>ValueAnimator</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">ObjectAnimator animator = ObjectAnimator.ofFloat(mTextView, <span class="string">"alpha"</span>, <span class="number">1f</span>, <span class="number">0f</span>, <span class="number">1f</span>);  </div><div class="line">animator.setDuration(<span class="number">3000</span>);  </div><div class="line">animator.start();</div></pre></td></tr></table></figure>
+<p>以上代码实现的是mTextView的透明度动画</p>
+<p>第一个参数指定执行动画的对象，第二个参数指定动画类型，其余参数为动画执行中的开始，结束点</p>
+<p>第二个参数由执行动画的对象来决定，比如此时的<code>mTextView</code>，，<code>TextView</code>的Api中有对应的<code>setAlpha</code>,<code>getAlpha</code>方法</p>
+<h2 id="AnimatorSet，Animator"><a href="#AnimatorSet，Animator" class="headerlink" title="AnimatorSet，Animator"></a>AnimatorSet，Animator</h2><p>Android Api 提供了AnimatorSet来实现组合动画，AnimatorSet中的play方法会返回一个AnimatorSet.Builder实例，该实例提供了以下几个方法：</p>
+<ul>
+<li>after(Animator anim)   插入动画到现有动画之后执行</li>
+<li>after(long delay)   延迟指定毫秒执行现有动画</li>
+<li>before(Animator anim)   插入现有动画到传入的动画之前执行</li>
+<li>with(Animator anim)   同时执行现有动画和传入的动画</li>
+</ul>
+<h2 id="TypeEvaluator"><a href="#TypeEvaluator" class="headerlink" title="TypeEvaluator"></a>TypeEvaluator</h2><p>Api中提供了TypeEvaluator接口来控制startValue到endValue过渡的快慢，可以通过重写evaluate方法的实现算法来改变动画的执行速度</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">interface</span> <span class="title">TypeEvaluator</span>&lt;<span class="title">T</span>&gt; </span>&#123;</div><div class="line">    <span class="function"><span class="keyword">public</span> T <span class="title">evaluate</span><span class="params">(<span class="keyword">float</span> fraction, T startValue, T endValue)</span></span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>fraction 表示当前动画的执行进度</li>
+<li>startValue 表示初始值</li>
+<li>endValue 表示结束值</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="Property Animation" scheme="http://yoursite.com/tags/Property-Animation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shape Drawable解析</title>
+    <link href="http://yoursite.com/2015/11/19/Shape-Drawable%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2015/11/19/Shape-Drawable解析/</id>
+    <published>2015-11-19T09:11:00.000Z</published>
+    <updated>2016-08-23T09:51:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>    
+
+<a id="more"></a>
+</p><p><strong>Shape</strong></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">android:shape=["rectangle" | "oval" | "line" | "ring"]</div></pre></td></tr></table></figure>
+<p><strong>Attribute</strong></p>
+<p>在<code>example.xml</code>所有标签中，以下标签只属于<code>ring</code></p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:innerRadius</td>
+<td>内圈半径</td>
+</tr>
+<tr>
+<td>android:innerRadiusRatio</td>
+<td>可以根据它得出环的内圈半径，公式为innerRadius=width/innerRadiusRatio    </td>
+</tr>
+<tr>
+<td>android:thickness</td>
+<td>环的厚度</td>
+</tr>
+<tr>
+<td>android:thicknessRatio</td>
+<td>可以根据它得出环的厚度,公式为thickness=width/thicknessRatio</td>
+</tr>
+<tr>
+<td>android:useLevel</td>
+<td>如果当做是LevelListDrawable使用时值为true，否则为false.</td>
+</tr>
+</tbody>
+</table>
+<p>接下来介绍其他的标签及属性</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">corners</span></span></div><div class="line">        <span class="attr">android:radius</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:topLeftRadius</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:topRightRadius</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:bottomLeftRadius</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:bottomRightRadius</span>=<span class="string">"integer"</span> /&gt;</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:radius</td>
+<td>所有圆角半径</td>
+</tr>
+<tr>
+<td>android:topLeftRadius</td>
+<td>左上角圆角半径</td>
+</tr>
+<tr>
+<td>android:topRightRadius</td>
+<td>右上角圆角半径</td>
+</tr>
+<tr>
+<td>android:bottomLeftRadius</td>
+<td>左下角圆角半径</td>
+</tr>
+<tr>
+<td>android:bottomRightRadius</td>
+<td>右下角圆角半径</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">gradient</span></span></div><div class="line">        <span class="attr">android:angle</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:centerX</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:centerY</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:centerColor</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:endColor</span>=<span class="string">"color"</span></div><div class="line">        <span class="attr">android:gradientRadius</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:startColor</span>=<span class="string">"color"</span></div><div class="line">        <span class="attr">android:type</span>=<span class="string">[</span>"<span class="attr">linear</span>" | "<span class="attr">radial</span>" | "<span class="attr">sweep</span>"]</div><div class="line">        <span class="attr">android:useLevel</span>=<span class="string">[</span>"<span class="attr">true</span>" | "<span class="attr">false</span>"] /&gt;</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:angle</td>
+<td>颜色渐变方向，0为从左向右，90为从下到上（逆时针方向变化）    </td>
+</tr>
+<tr>
+<td>android:centerX</td>
+<td>水平方向渐变中间颜色所在位置</td>
+</tr>
+<tr>
+<td>android:centerY</td>
+<td>垂直方向渐变中间颜色所在位置</td>
+</tr>
+<tr>
+<td>android:centerColor</td>
+<td>颜色渐变开始到结束中间颜色值</td>
+</tr>
+<tr>
+<td>android:endColor</td>
+<td>渐变结束的颜色值</td>
+</tr>
+<tr>
+<td>android:gradientRadius</td>
+<td>颜色渐变半径，只有android:type=”radial”才可以使用</td>
+</tr>
+<tr>
+<td>android:startColor</td>
+<td>渐变开始的颜色值</td>
+</tr>
+<tr>
+<td>android:type=[“linear”,”radial”,”sweep”]</td>
+<td>渐变的方式，分为线性、放射、扫描三种。</td>
+</tr>
+<tr>
+<td>android:useLevel=[“true”,”false”]</td>
+<td>是否被当作<code>LevelListDrawable</code></td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">size</span></span></div><div class="line">        <span class="attr">android:width</span>=<span class="string">"integer"</span></div><div class="line">        <span class="attr">android:height</span>=<span class="string">"integer"</span> /&gt;</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:width</td>
+<td>shap的宽度设置</td>
+</tr>
+<tr>
+<td>android:height</td>
+<td>shape的高度设置</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">solid</span></span></div><div class="line">        <span class="attr">android:color</span>=<span class="string">"color"</span> /&gt;</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:color</td>
+<td>shape颜色值</td>
+</tr>
+</tbody>
+</table>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">stroke</span></span></div><div class="line">       <span class="attr">android:width</span>=<span class="string">"integer"</span></div><div class="line">       <span class="attr">android:color</span>=<span class="string">"color"</span></div><div class="line">       <span class="attr">android:dashWidth</span>=<span class="string">"integer"</span></div><div class="line">       <span class="attr">android:dashGap</span>=<span class="string">"integer"</span> /&gt;</div></pre></td></tr></table></figure>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>android:width</td>
+<td>划线的宽度（粗细）    </td>
+</tr>
+<tr>
+<td>android:color</td>
+<td>划线的颜色</td>
+</tr>
+<tr>
+<td>android:dashWidth</td>
+<td>破折线的长度</td>
+</tr>
+<tr>
+<td>android:dashGap</td>
+<td>破折线之间的空隙长度</td>
+</tr>
+</tbody>
+</table>
+<p><strong>遇到的问题</strong></p>
+<ol>
+<li><code>shape = &quot;line&quot;</code>时,<code>padding</code>标签中的<code>android:left</code>,<code>android:right</code>会失效。</li>
+<li>使用<code>shape=&quot;line&quot;</code>绘制虚线，由于<code>android4.0</code>默认打开了自动加速，会导致绘制失效，显示实线。</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git常用指令</title>
+    <link href="http://yoursite.com/2015/10/08/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/"/>
+    <id>http://yoursite.com/2015/10/08/git常用指令/</id>
+    <published>2015-10-08T08:58:00.000Z</published>
+    <updated>2016-09-28T14:34:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>
+
+<a id="more"></a>
+</p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><blockquote>
+<p><code>sudo apt-get install git</code></p>
+</blockquote>
+<h2 id="用户信息配置"><a href="#用户信息配置" class="headerlink" title="用户信息配置"></a>用户信息配置</h2><blockquote>
+<p><code>git config --global user.name &quot;Your Name&quot;</code><br><code>git config --global user.email &quot;email@example.com&quot;</code></p>
+</blockquote>
+<h2 id="常用指令使用说明"><a href="#常用指令使用说明" class="headerlink" title="常用指令使用说明"></a>常用指令使用说明</h2><table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>git init</td>
+<td>将当前目录作为git仓库</td>
+</tr>
+<tr>
+<td>git add</td>
+<td>将文件添加到仓库</td>
+</tr>
+<tr>
+<td>git commit</td>
+<td>将文件提交到仓库</td>
+</tr>
+<tr>
+<td>git status</td>
+<td>查看当前仓库状态</td>
+</tr>
+<tr>
+<td>git diff</td>
+<td>查看修改内容</td>
+</tr>
+<tr>
+<td>git log</td>
+<td>查看提交日志</td>
+</tr>
+<tr>
+<td>git reset –hard HEAD^</td>
+<td>回退到上一个版本</td>
+</tr>
+<tr>
+<td>git reset –hard commit_id</td>
+<td>回退到commit_id之前版本</td>
+</tr>
+<tr>
+<td>git reflog</td>
+<td>查看执行过的命令</td>
+</tr>
+<tr>
+<td>git checkout –file</td>
+<td>丢弃文件在工作区的修改</td>
+</tr>
+<tr>
+<td>git reset HEAD file</td>
+<td>丢弃文件在暂存区的修改</td>
+</tr>
+<tr>
+<td>git remote add origin git@server-name:path/repo-name.git</td>
+<td>关联一个远程仓库</td>
+</tr>
+<tr>
+<td>git push origin master</td>
+<td>推送修改到远程仓库</td>
+</tr>
+<tr>
+<td>git branch</td>
+<td>查看分支</td>
+</tr>
+<tr>
+<td>git branch <name></name></td>
+<td>创建分支</td>
+</tr>
+<tr>
+<td>git checkout <name></name></td>
+<td>切换分支</td>
+</tr>
+<tr>
+<td>git checkout -b <name></name></td>
+<td>创建+切换分支</td>
+</tr>
+<tr>
+<td>git merge <name></name></td>
+<td>合并某分支到当前分支</td>
+</tr>
+<tr>
+<td>git branch -d <name></name></td>
+<td>删除分支</td>
+</tr>
+<tr>
+<td>git stash</td>
+<td>储存工作现场</td>
+</tr>
+<tr>
+<td>git stash list</td>
+<td>查看储存的现场</td>
+</tr>
+<tr>
+<td>git stash apply/git stash pop</td>
+<td>恢复工作现场</td>
+</tr>
+<tr>
+<td>git remote -v</td>
+<td>查看远程库信息</td>
+</tr>
+<tr>
+<td>git tag <name></name></td>
+<td>创建标签</td>
+</tr>
+<tr>
+<td>git tag</td>
+<td>查看所有标签</td>
+</tr>
+<tr>
+<td>git tag -a <tagname> -m “tag content”</tagname></td>
+<td>指定标签信息</td>
+</tr>
+<tr>
+<td>git tag -s <tagname> -m “tag content”</tagname></td>
+<td>用PGP签名标签</td>
+</tr>
+<tr>
+<td>git push origin <tagname></tagname></td>
+<td>推送tagname标签</td>
+</tr>
+<tr>
+<td>git push origin –tags</td>
+<td>推送所有未推送的标签</td>
+</tr>
+<tr>
+<td>git tag -d <tagname></tagname></td>
+<td>删除tagname标签</td>
+</tr>
+<tr>
+<td>git push origin :refs/tags/<tagname></tagname></td>
+<td>删除远程标签</td>
+</tr>
+<tr>
+<td>git config –global color.ui true</td>
+<td>让git输出内容显示颜色</td>
+</tr>
+<tr>
+<td>git config –global alias.st status</td>
+<td>配置别名</td>
+</tr>
+</tbody>
+</table>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
+<li><code>git stash</code> 命令可以将本地修改进行暂存，该暂存区是属于仓库的，而不是属于分支。所以恢复修改时需要使用<code>git stash apply &lt;stashname&gt;</code></li>
+<li>提交到远端的代码不要再使用<code>git rebase</code>进行重新合并</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="http://yoursite.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+      <category term="Linux" scheme="http://yoursite.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ImageView.ScaleType属性介绍</title>
+    <link href="http://yoursite.com/2015/09/21/ImageView-ScaleType%E5%B1%9E%E6%80%A7%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://yoursite.com/2015/09/21/ImageView-ScaleType属性介绍/</id>
+    <published>2015-09-21T04:35:00.000Z</published>
+    <updated>2016-08-23T09:50:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>   
+
+<a id="more"></a>
+</p><p><img src="http://img.blog.csdn.net/20150921123029233" alt="这里写图片描述"></p>
+<p><strong>介绍如下：</strong></p>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>功能描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CENTER</td>
+<td>在view中间位置显示，并且不进行缩放。可能导致图片显示不全。</td>
+</tr>
+<tr>
+<td>CENTER_CROP</td>
+<td>view的长宽比对图片进行缩放，图片可以填充view，但图片部分区域可能无法显示</td>
+</tr>
+<tr>
+<td>CENTER_INSIDE</td>
+<td>view的长宽比对图片进行缩放，图片可能无法填充view</td>
+</tr>
+<tr>
+<td>FIT_CENTER</td>
+<td>图片长宽比例进行缩放，并在view中居中显示</td>
+</tr>
+<tr>
+<td>FIT_END</td>
+<td>图片长宽比例进行缩放，并在view中居右显示</td>
+</tr>
+<tr>
+<td>FIT_START</td>
+<td>图片长宽比例进行缩放，并在view中居左显示</td>
+</tr>
+<tr>
+<td>FIT_XY</td>
+<td>x,y方向都进行拉伸，使图片填充view,可能导致图片变形</td>
+</tr>
+<tr>
+<td>MATRIX</td>
+<td>绘制时使用图像矩阵来进行拉伸</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Android" scheme="http://yoursite.com/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="http://yoursite.com/tags/Android/"/>
+    
+      <category term="ImageView" scheme="http://yoursite.com/tags/ImageView/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu下使用git命令生成ssh key连接github</title>
+    <link href="http://yoursite.com/2015/05/24/ubuntu%E4%BD%BF%E7%94%A8git%E5%91%BD%E4%BB%A4%E7%94%9F%E6%88%90ssh-key%E8%BF%9E%E6%8E%A5github/"/>
+    <id>http://yoursite.com/2015/05/24/ubuntu使用git命令生成ssh-key连接github/</id>
+    <published>2015-05-24T09:43:00.000Z</published>
+    <updated>2016-08-23T10:09:16.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>
+
+<a id="more"></a>
+<ol>
+<li><p>设置username和email</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot;your name&quot;</div><div class="line">git config --global user.email your email</div></pre></td></tr></table></figure>
+</li>
+<li><p>查看已有的ssh key</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls -al ~/.ssh</div></pre></td></tr></table></figure>
+</li>
+<li><p>生成ssh key</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -b 4096 -C &quot;email address&quot;</div></pre></td></tr></table></figure>
+</li>
+<li><p>查看是否生成</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ls -al ~/.ssh</div></pre></td></tr></table></figure>
+</li>
+<li><p>确定ssh-agent可以使用(msysgit)</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">eval $(ssh-agent -s)</div></pre></td></tr></table></figure>
+</li>
+<li><p>添加ssh key到ssh-agent</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-add ~/.ssh/id_rsa</div></pre></td></tr></table></figure>
+</li>
+<li><p>将ssh key复制到剪切板</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">clip &lt; ~/.ssh/id_rsa.pub</div></pre></td></tr></table></figure>
+</li>
+<li><p>打开github,将ssh key添加进去</p>
+</li>
+<li><p>测试是否连接</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -T git@github.com</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p/&gt;
+    
+    </summary>
+    
+      <category term="Git" scheme="http://yoursite.com/categories/Git/"/>
+    
+    
+      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+    
+      <category term="Ubuntu" scheme="http://yoursite.com/tags/Ubuntu/"/>
+    
+      <category term="ssh key" scheme="http://yoursite.com/tags/ssh-key/"/>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+  </entry>
+  
+</feed>
